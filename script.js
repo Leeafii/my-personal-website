@@ -1,4 +1,4 @@
-function generateCharStats() {
+function generateCharacter() {
     const categories = ["Strength", "Speed", "Durability", "IQ", "Combat Ability"];
     const profile = {};
 
