@@ -1,5 +1,5 @@
-function generateCharStats() {
-    const categories=["Strength", "Speed", "Durability", "IQ", "Combat Ability"];
+function generateCharacter() {
+    const categories = ["Strength", "Speed", "Durability", "IQ", "Combat Ability"];
     const profile = {};
 
     for (const category of categories) {
@@ -8,10 +8,15 @@ function generateCharStats() {
         const word = mapNumberToWord(randomNumber);
 
         profile[category] = word;
+    }
 
-}
     const profileDiv = document.getElementById("profile");
     profileDiv.innerHTML = "<h2>Your Character Stats</h2>";
+
+    for (const category in profile) {
+        profileDiv.innerHTML += <p><strong>${category}:</strong> ${profile[category]}</p>;
+    }
+}
 
 function generateRandomNumber(min, max) {
     const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
