@@ -24,4 +24,5 @@ function mapNumberToWord(number) {
         9: "Superhuman",
         10: "Godlike"
     };
+    return numberWordMap[number] || "Unknown";
 }
