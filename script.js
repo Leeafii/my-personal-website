@@ -1,4 +1,4 @@
-function generateRandomProfile() {
+function generateCharStats() {
 
 
 }
