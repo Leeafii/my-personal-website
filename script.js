@@ -14,7 +14,7 @@ function generateCharacter() {
     profileDiv.innerHTML = "<h2>Your Character Stats</h2>";
 
     for (const category in profile) {
-        profileDiv.innerHTML += `<p><strong>${category}:</strong> ${profile[category]}</p>`;
+        profileDiv.innerHTML += `<p><strong>${category}:</strong> <span>${profile[category]}</p></span>`;
     }
 }
 

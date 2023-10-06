@@ -1,12 +1,18 @@
 h1 {
   font-family: sans-serif;
-  }
+  font-size: xx-large
+}
+
+#profile p strong+span{
+  font-style:italic
+}
 
 p{
   font-family: sans-serif;
+  
 }
 
 body {
     background: rgb(161, 161, 190);
     font-family: sans-serif
-  }
+}
