@@ -25,16 +25,16 @@ function generateRandomNumber(min, max) {
 
 function mapNumberToWord(number) {
     const numberWordMap = {
-        1: "Low",
-        2: "Below Average",
-        3: "Average",
-        4: "Above Average",
-        5: "High",
-        6: "Very High",
-        7: "Excellent",
-        8: "Exceptional",
-        9: "Superhuman",
-        10: "Godlike"
+        1: "1: Low",
+        2: "2: Below Average",
+        3: "3: Average",
+        4: "4: Above Average",
+        5: "5: High",
+        6: "6: Very High",
+        7: "7: Excellent",
+        8: "8: Exceptional",
+        9: "9: Superhuman",
+        10: "10: Godlike"
     };
 
     return numberWordMap[number] || "Unknown";
