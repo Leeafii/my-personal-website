@@ -1,6 +1,7 @@
 h1 {
   font-family: sans-serif;
-  font-size: xx-large
+  font-size: xx-large;
+  color:#0e2a5e
 }
 
 #profile p strong+span{
@@ -9,6 +10,7 @@ h1 {
 
 p{
   font-family: sans-serif;
+  width: 700px;
   
 }
 
