@@ -2,6 +2,11 @@ h1 {
   font-family: sans-serif;
   }
 
+p{
+  font-family: sans-serif;
+}
+
 body {
     background: rgb(161, 161, 190);
+    font-family: sans-serif
   }
