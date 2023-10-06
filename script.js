@@ -1,5 +1,5 @@
 function generateCharStats() {
-
+    const categories=["Strength", "Speed", "Durability", "IQ", "Combat Ability"];
 
 }
 
