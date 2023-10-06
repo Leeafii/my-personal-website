@@ -4,7 +4,14 @@ function generateCharStats() {
 
     for (const category of categories) {
         const randomNumber = generateRandomNumber(1, 10);
+
+        const word = mapNumberToWord(randomNumber);
+
+        profile[category] = word;
+
 }
+    const profileDiv = document.getElementById("profile");
+    profileDiv.innerHTML = "<h2>Your Character Stats</h2>";
 
 function generateRandomNumber(min, max) {
     const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
