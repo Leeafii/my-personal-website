@@ -12,6 +12,17 @@ p{
   
 }
 
+.button {
+  background-color: #6928be;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+}
+
+.button:hover {
+  background-color: #5733da;
+}
+
 body {
     background: rgb(161, 161, 190);
     font-family: sans-serif
