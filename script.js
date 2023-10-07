@@ -1,3 +1,14 @@
+function generateCharacterOrMessage() {
+    const randomNumber = generateRandomNumber(1, 2);
+    
+    const profileDiv = document.getElementById("profile");
+    if (randomNumber === 1) {
+        generateCharacter(profileDiv);
+    } else {
+        profileDiv.innerHTML = "You do not exist";
+    }
+}
+
 function generateCharacter() {
     const categories = ["Strength", "Speed", "Durability", "IQ", "Combat Ability"];
     const profile = {};
@@ -14,7 +25,7 @@ function generateCharacter() {
     profileDiv.innerHTML = "<h2>Your Character Stats</h2>";
 
     for (const category in profile) {
-        profileDiv.innerHTML += `<p><strong>${category}:</strong> <span>${profile[category]}</p></span>`;
+        profileDiv.innerHTML += `<p><strong>${category}:</strong> <span>${profile[category]}</p></span><br>`;
     }
 }
 

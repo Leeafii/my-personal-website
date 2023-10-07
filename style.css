@@ -16,19 +16,19 @@ h2{
   color:rgb(255, 0, 0);
 }
 
-#profile p:nth-child(3) strong{
+#profile p:nth-child(4) strong{
   color:yellow;
 }
 
-#profile p:nth-child(4) strong{
+#profile p:nth-child(6) strong{
   color:rgb(153, 255, 0);
 }
 
-#profile p:nth-child(5) strong{
+#profile p:nth-child(8) strong{
   color:rgb(0, 217, 255);
 }
 
-#profile p:nth-child(6) strong{
+#profile p:nth-child(10) strong{
   color:rgb(76, 0, 255);
 }
 
