@@ -32,10 +32,13 @@ h2{
   color:rgb(76, 0, 255);
 }
 
-p{
+p {
   font-family: sans-serif;
   width: 700px;
-  
+}
+
+.not_exist{
+  color: red;
 }
 
 .button {

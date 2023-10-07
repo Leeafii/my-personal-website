@@ -5,7 +5,7 @@ function generateCharacterOrMessage() {
     if (randomNumber === 1) {
         generateCharacter(profileDiv);
     } else {
-        profileDiv.innerHTML = "You do not exist";
+        profileDiv.innerHTML = "<br>You do not exist";
     }
 }
 
@@ -26,6 +26,13 @@ function generateCharacter() {
 
     for (const category in profile) {
         profileDiv.innerHTML += `<p><strong>${category}:</strong> <span>${profile[category]}</p></span><br>`;
+    }
+
+    const randomNumber = generateRandomNumber(1, 2);
+    if (randomNumber === 1) {
+        profileDiv.innerHTML += "<p>You are a Hero</p>";
+    } else {
+        profileDiv.innerHTML += "<p>You are a Villain</p>";
     }
 }
 
