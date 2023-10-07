@@ -4,8 +4,32 @@ h1 {
   color:#0e2a5e
 }
 
+h2{
+  color: #0077ff;
+}
+
 #profile p strong+span{
   font-style:italic
+}
+
+#profile p:nth-child(2) strong{
+  color:rgb(255, 0, 0);
+}
+
+#profile p:nth-child(3) strong{
+  color:yellow;
+}
+
+#profile p:nth-child(4) strong{
+  color:rgb(153, 255, 0);
+}
+
+#profile p:nth-child(5) strong{
+  color:rgb(0, 217, 255);
+}
+
+#profile p:nth-child(6) strong{
+  color:rgb(76, 0, 255);
 }
 
 p{
@@ -19,6 +43,8 @@ p{
   color: #fff;
   border: none;
   padding: 10px 20px;
+  width: 200px;
+  text-align: center;
 }
 
 .button:hover {
